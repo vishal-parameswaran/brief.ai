@@ -4,10 +4,8 @@ from pdfminer.layout import LTTextContainer
 import os
 import re
 
-folder_path = r"C:/Users/yomaa/Documents/Github/University-of-Chicago/Capstone/splitFiles/EB/"
-output_path = r"C:/Users/yomaa/Documents/Github/University-of-Chicago/Capstone/outputFiles/EB/"
-header_regex = re.compile(r"\nPresentation\n")
-footer_regex = re.compile(r"Page \d{1,4} .* Factiva, Inc. All rights reserved.")
+folder_path = r""
+output_path = r""
 disclaimer_regex = re.compile(r"\[Thomson Financial reserves")
 
 for foldername in os.listdir(folder_path):

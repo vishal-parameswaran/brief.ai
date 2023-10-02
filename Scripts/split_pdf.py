@@ -8,8 +8,8 @@ skipped_files = {
         'file_path': []
 }
 
-folder = r"C:\Users\yomaa\Documents\Github\University-of-Chicago\Capstone\Files\EB"
-main_output_folder = r"C:\Users\yomaa\Documents\Github\University-of-Chicago\Capstone\splitFiles\EB\\"
+folder = r""
+main_output_folder = r""
 
 for foldername in os.listdir(folder):
     print("_"*100)
